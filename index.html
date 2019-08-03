@@ -16,7 +16,7 @@
         #game {
             width: 800px;
             height: 600px;
-            background: url('images/sky.png');
+            background: url('./sky.png');
             position: relative;
             overflow: hidden;
         }
@@ -24,7 +24,7 @@
         #bird {
             width: 34px;
             height: 25px;
-            background: url('images/birds.png') -8px -10px no-repeat;
+            background: url('./birds.png') -8px -10px no-repeat;
             position: absolute;
             top: 100px;
             left: 100px;
@@ -82,7 +82,7 @@
 		var upPipe=document.createElement('div');
 		upPipe.style.width='52px';
 		upPipe.style.height=pipe.upheight +'px';
-		upPipe.style.background='url("images/pipe2.png")no-repeat center bottom';
+		upPipe.style.background='url("./pipe2.png")no-repeat center bottom';
 		upPipe.style.position='absolute';
 		upPipe.style.top='0px';
 		upPipe.style.left=pipe.x+'px';
@@ -93,7 +93,7 @@
 		var downPipe=document.createElement('div');
 		downPipe.style.width='52px';
 		downPipe.style.height=pipe.downheight +'px';
-		downPipe.style.background='url("images/pipe1.png")no-repeat center top';
+		downPipe.style.background='url("./pipe1.png")no-repeat center top';
 		downPipe.style.position='absolute';
 		downPipe.style.top=pipe.downTop+'px';
 		downPipe.style.left=pipe.x+'px';
